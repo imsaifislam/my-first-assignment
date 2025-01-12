@@ -13,6 +13,21 @@ body {
     background-color: black;
     color: white;
 }
+.donate-button:hover{
+  background-color: black;
+}
+#third-btn:hover{
+  background-color: black;
+  color: white;
+}
+#second-btn:hover{
+  background-color: black;
+  color: white;
+}
+#first-btn:hover{
+  background-color: black;
+  color: white;
+}
 
 /* navigation style start here */
 
@@ -204,12 +219,15 @@ nav li{
 
   #first-btn {
     background-color: rgb(84, 144, 245);
+    color: white;
   }
   #second-btn {
     background-color: rgb(9, 161, 92);
+    color: white;
   }
   #third-btn {
     background-color: rgb(255, 194, 57);
+    color: white;
   }
 
   .quote {
@@ -262,7 +280,7 @@ nav li{
     padding: 48px;
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 0.1);
+    box-shadow: 3px 3px 3px 3px rgb(0 0 0 / 0.1);
     margin-bottom: 24px;
   }
   .news-card img {
@@ -302,6 +320,77 @@ nav li{
   }
 
   /* recent news section end here*/
+
+  /* donate section start here */
+.donate-section {
+  width: 1280px;
+  height: 464px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.donate-container {
+  text-align: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+.donate-container h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.donate-container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+.donate-card {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 16px;
+  padding: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  margin-bottom: 32px;
+}
+.card-hover:hover {
+  background-color: rgb(198, 228, 214);
+  cursor: pointer;
+  transition: 0.3s ease-in;
+}
+.amount-filed-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.amount-filed {
+  width: 1032px;
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: rgb(244, 242, 242);
+  color: rgba(14, 14, 14, 0.3);
+  border: none;
+  margin-bottom: 32px;
+}
+.donate-button {
+  padding: 17px 34px 17px 34px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgb(0, 106, 80);
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+}
+/* donate section end here */
+
   
   /* newsletter section style start here */
 .newsletter-section {
@@ -363,59 +452,59 @@ nav li{
   /* newsletter section style end here */
   
 
-  /* footer section styles start here */
+/* footer section styles start here */
 .footer {
-    text-align: center;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
-    margin: 0 auto;
-    max-width: 1280px;
-  }
-  
-  .footer-title {
-    font-size: 1.5rem;
-    margin: 0;
-    color: #333;
-  }
-  
-  .footer-divider {
-    margin: 10px auto;
-    width: 50%;
-    border: none;
-    border-top: 1px solid #ddd;
-  }
-  
-  .social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    margin-top: 10px;
-  }
-  
-  .icon {
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 50%;
-  }
-  
-  .icon.facebook {
-    background-image: url("https://cdn-icons-png.flaticon.com/512/5968/5968764.png");
-  }
-  
-  .icon.instagram {
-    background-image: url("https://cdn-icons-png.flaticon.com/512/1409/1409946.png");
-  }
-  
-  .icon.twitter {
-    background-image: url("https://cdn-icons-png.flaticon.com/512/733/733579.png");
-  }
-  
-  .icon:hover {
-    transform: scale(1.1);
-    transition: transform 0.2s ease;
-  }
-  /* footer section styles end here */
+  text-align: center;
+  width: 1280px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.footer-title {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+}
+
+.footer-divider {
+  margin: 10px auto;
+  width: 1122px;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.icon.facebook {
+  background-image: url("../assets/facebook.png");
+}
+
+.icon.instagram {
+  background-image: url("../assets/instagram.png");
+}
+
+.icon.twitter {
+  background-image: url("../assets//x.png");
+}
+
+.icon:hover { 
+  transform: scale(1.1);
+  transition: transform 0.2s ease;}
+/* footer section styles end here */
   
