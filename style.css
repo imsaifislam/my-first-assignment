@@ -9,6 +9,11 @@ body {
   font-family: "Fira Sans", serif;
 }
 
+.btn-hover:hover{
+    background-color: black;
+    color: white;
+}
+
 /* navigation style start here */
 
 nav{
@@ -180,15 +185,23 @@ nav li{
     border-radius: 8px;
     border: none;
   }
+
+
   #first-card-color {
     background-color: rgba(84, 144, 245, 0.2);
   }
+
   #second-card-color {
     background-color: rgb(198, 228, 214);
+  }
+  #second-card-color :hover{
+    background-color: black;
+    color: white;
   }
   #third-card-color {
     background-color: rgb(247, 235, 207);
   }
+
   #first-btn {
     background-color: rgb(84, 144, 245);
   }
@@ -198,5 +211,95 @@ nav li{
   #third-btn {
     background-color: rgb(255, 194, 57);
   }
+
+  .quote {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    height: 256px;
+    margin-bottom: 80px;
+    border-radius: 16px;
+  }
+  .quote img {
+    padding: 20px 0px 0px 20px;
+    position: absolute;
+  }
+  .quote-description {
+    position: relative;
+    padding: 50px 25px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    top: 0;
+  }
+  .quote-description p {
+    line-height: 25px;
+    color: rgba(14, 14, 14, 0.8);
+  }
   
   /* vision of future end here */
+
+  /* recent news section start here*/
+.recent-news {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+  }
+  .recent-news-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 24px;
+  }
+  .recent-news-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    margin-bottom: 32px;
+  }
+  .news-card {
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 0.1);
+    margin-bottom: 24px;
+  }
+  .news-card img {
+    border-radius: 24px;
+  }
+  .news-card h3 {
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 12px;
+  }
+  #flex {
+    display: flex;
+    gap: 10px;
+  }
+  #flex-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  #img {
+    margin-bottom: 12px;
+  }
+  .news-card p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    line-height: 30px;
+  }
+  .news-card button{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 13px 26px 13px 26px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(0, 106, 80);
+    color: white ;
+  }
+
+  /* recent news section end here*/
+  
